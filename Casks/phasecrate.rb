@@ -1,8 +1,8 @@
-# Homebrew cask for PhaseCrate. Template: scripts/release-mac.sh fills 0.1.7 and
-# 4f947e600c1e3c2496ba1ded9123280f93b89d3b1d4dac882e923ce0f8ed0017 and publishes the result to the xDae/homebrew-phasecrate tap on every release.
+# Homebrew cask for PhaseCrate. Template: scripts/release-mac.sh fills 0.1.8 and
+# f2d775502932ee07102d99b432ef1b1bfe4bebe7a36250ce4cae0b1caf9176cf and publishes the result to the xDae/homebrew-phasecrate tap on every release.
 cask "phasecrate" do
-  version "0.1.7"
-  sha256 "4f947e600c1e3c2496ba1ded9123280f93b89d3b1d4dac882e923ce0f8ed0017"
+  version "0.1.8"
+  sha256 "f2d775502932ee07102d99b432ef1b1bfe4bebe7a36250ce4cae0b1caf9176cf"
 
   url "https://downloads.phasecrate.io/mac/studio/PhaseCrate-#{version}-aarch64.dmg"
   name "PhaseCrate"
